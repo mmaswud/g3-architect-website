@@ -135,10 +135,12 @@ nav li a {
     padding: 30px;
     margin-bottom: 20px;
 }
-.feature-img img{
+
+.feature-img img {
     height: 90%;
     margin-left: 50px;
 }
+
 .ten-years-badge {
     border-radius: 8px;
     background: #FF900E;
@@ -149,11 +151,13 @@ nav li a {
     position: relative;
     bottom: 100px;
 }
-.ten-years-badge h2{
+
+.ten-years-badge h2 {
     font-size: 4rem;
     margin: 0;
 }
-.ten-years-badge p{
+
+.ten-years-badge p {
     font-size: 1.5rem;
 }
 
@@ -200,6 +204,22 @@ nav li a {
     width: 165px;
 }
 
+/* footer styles */
+footer {
+    max-width: 1440px;
+    margin: 70px auto;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+
+.footer-text {
+    color: #424242;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding: 40px 410px;
+}
+
 @media screen and (max-width: 576px) {
     header {
         padding: 20px;
@@ -212,11 +232,13 @@ nav li a {
     .sponsors-img-container {
         flex-direction: column;
     }
-    .feature-img img{
+
+    .feature-img img {
         width: 93%;
         margin-left: 0;
     }
-    .ten-years-badge{
+
+    .ten-years-badge {
         position: static;
         max-width: 280px;
     }
